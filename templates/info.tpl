@@ -19,7 +19,7 @@
         <form action="{path_for name="download"}">
             <input type="hidden" name="url" value="{$video->webpage_url}"/>
             {if $config->uglyUrls}
-                <input type="hidden" name="page" value="download"/>
+                <input type="hidden" name="page" value="/alltube/download"/>
             {/if}
             {if isset($video->formats) && count($video->formats) > 1}
                 <h3><label for="format">{t}Available formats:{/t}</label></h3>

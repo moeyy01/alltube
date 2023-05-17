@@ -14,7 +14,7 @@
                    required placeholder="https://example.com/video"/>
         </span>
             {if $config->uglyUrls}
-                <input type="hidden" name="page" value="info"/>
+                <input type="hidden" name="page" value="/alltube/info"/>
             {/if}
             <input class="downloadBtn large-font" type="submit" value="{t}Download{/t}"/><br/>
             {if $config->convert}

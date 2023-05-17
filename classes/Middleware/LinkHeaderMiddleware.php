@@ -27,7 +27,7 @@ class LinkHeaderMiddleware
             implode(
                 '; ',
                 [
-                    '<' . $uri->getBasePath() . '/css/style.css>',
+                    '<' . $uri->getBasePath() . '/alltube/css/style.css>',
                     'rel=preload', 'as=style'
                 ]
             )

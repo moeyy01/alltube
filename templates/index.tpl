@@ -1,7 +1,7 @@
 {extends file='page.tpl'}
 {block name='main'}
     <div>
-        {html_image file='/alltube/img/logo.png' path_prefix={base_url}|cat:'/' alt=$config->appName class="logo"}
+        {html_image file='/alltube/img/logo.png' path_prefix='https://moeyy.cn'|cat:''/alltube/' alt=$config->appName class="logo"}
     </div>
     <form action="{path_for name="info"}">
         <label class="labelurl" for="url">

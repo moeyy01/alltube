@@ -43,7 +43,7 @@
             {/if}
         </div>
     </form>
-    <a class="combatiblelink small-font" href="{path_for name="extractors"}">{t}See all supported websites{/t}</a>
+    <a class="combatiblelink small-font" href="/alltube/extractors">{t}See all supported websites{/t}</a>
     <!--div id="bookmarklet" class="bookmarklet_wrapper">
         <p> {t}Drag this to your bookmarks bar:{/t} </p>
         <a class="bookmarklet small-font"

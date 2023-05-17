@@ -103,7 +103,7 @@ class App extends \Slim\App
         )->setName('download');
 
         $this->get(
-            '/locale/{locale}',
+            '/alltube/locale/{locale}',
             [$frontController, 'locale']
         )->setName('locale');
 

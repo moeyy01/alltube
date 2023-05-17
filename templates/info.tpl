@@ -16,7 +16,7 @@
             <meta itemprop="uploadDate" content="{$video->upload_date}"/>
         {/if}
         <br/>
-        <form action="{path_for name="download"}">
+        <form action="/alltube/download">
             <input type="hidden" name="url" value="{$video->webpage_url}"/>
             {if $config->uglyUrls}
                 <input type="hidden" name="page" value="/alltube/download"/>

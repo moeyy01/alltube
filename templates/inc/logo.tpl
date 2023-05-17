@@ -1,7 +1,7 @@
 <h1 class="logobis">
     <a class="logocompatible" href="{path_for name="index"}">
         <span class="logocompatiblemask">
-            {html_image file='/alltube/img/logocompatiblemask.png' path_prefix={base_url}|cat:'/' alt=$config->appName}
+            <img src="/alltube/img/logocompatiblemask.png" alt="AllTube Download" width="447" height="107" />
         </span>
     </a>
 </h1>

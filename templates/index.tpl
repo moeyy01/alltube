@@ -1,9 +1,9 @@
 {extends file='page.tpl'}
 {block name='main'}
     <div>
-        {html_image file='/alltube/img/logo.png' path_prefix='https://moeyy.cn'|cat:''/alltube/' alt=$config->appName class="logo"}
+        <img src="/alltube/img/logo.png" alt="AllTube Download" width="328" height="284" class="logo" />
     </div>
-    <form action="{path_for name="info"}">
+    <form action="/alltube/info">
         <label class="labelurl" for="url">
             {t}Copy here the URL of your video (YouTube, Dailymotion, etc.){/t}
         </label>

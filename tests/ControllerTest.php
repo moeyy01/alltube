@@ -49,7 +49,7 @@ abstract class ControllerTest extends ContainerTest
             ->setName('info');
         $router->map(['GET'], '/extractors', [$frontController, 'extractors'])
             ->setName('extractors');
-        $router->map(['GET'], '/locale', [$frontController, 'locale'])
+        $router->map(['GET'], '/alltube/locale', [$frontController, 'locale'])
             ->setName('locale');
         $router->map(['GET'], '/redirect', [$downloadController, 'download'])
             ->setName('download');

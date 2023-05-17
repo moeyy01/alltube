@@ -1,5 +1,5 @@
 <header>
-    {if isset($supportedLocales) AND count($supportedLocales) > 1}
+    {*{if isset($supportedLocales) AND count($supportedLocales) > 1}
         <div class="locales small-font">
             <button class="localesBtn small-font" title="{t}Switch language{/t}">
                 {if $locale->getLocale()->getCountry()}
@@ -25,5 +25,5 @@
                 {/foreach}
             </ul>
         </div>
-    {/if}
+    {/if}*}
 </header>

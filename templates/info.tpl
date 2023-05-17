@@ -53,7 +53,7 @@
                 <br/>
                 <br/>
             {/if}
-            <input class="downloadBtn" type="submit" value="{t}Download{/t}"/><br/>
+            <input class="downloadBtn" type="submit" value="{t}Download{/t}" formtarget="_blank" /><br/>
         </form>
     </div>
 {/block}

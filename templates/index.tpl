@@ -1,7 +1,7 @@
 {extends file='page.tpl'}
 {block name='main'}
     <div>
-        <img src="/alltube/img/logo.png" alt="AllTube Download" width="328" height="284" class="logo" />
+         <img src="/alltube/img/logo.png" alt="AllTube Download" width="328" height="284" class="logo" />
     </div>
     <form action="/alltube/info">
         <label class="labelurl" for="url">
@@ -17,7 +17,7 @@
                 <input type="hidden" name="page" value="/alltube/info"/>
             {/if}
             <input class="downloadBtn large-font" type="submit" value="{t}Download{/t}"/><br/>
-            {if $config->convert}
+            {* {if $config->convert}
                 <div class="mp3 small-font">
                     <div class="mp3-inner">
                         <input type="checkbox" id="audio" class="audio"
@@ -40,13 +40,13 @@
                         {/if}
                     </div>
                 </div>
-            {/if}
+            {/if} *}
         </div>
     </form>
     <a class="combatiblelink small-font" href="/alltube/extractors">{t}See all supported websites{/t}</a>
-    <!--div id="bookmarklet" class="bookmarklet_wrapper">
+    <div id="bookmarklet" class="bookmarklet_wrapper">
         <p> {t}Drag this to your bookmarks bar:{/t} </p>
         <a class="bookmarklet small-font"
            href="javascript:window.location='{$domain}{path_for name='info' queryParams=['url' => '%url%']}'.replace('%url%', encodeURIComponent(location.href));">{t}Bookmarklet{/t}</a>
-    </div-->
+    </div>
 {/block}

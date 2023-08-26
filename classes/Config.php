@@ -31,7 +31,7 @@ class Config
      *
      * @var string
      */
-    public string $python = '/usr/bin/python';
+    public string $python = '/usr/bin/python3';
 
     /**
      * youtube-dl parameters.

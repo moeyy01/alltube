@@ -3,7 +3,7 @@
 youtubedl: vendor/yt-dlp/yt-dlp/yt_dlp/__main__.py
 
 # Path to your python binary
-python: /usr/bin/python
+python: /usr/bin/python3
 
 # An array of parameters to pass to youtube-dl
 params:

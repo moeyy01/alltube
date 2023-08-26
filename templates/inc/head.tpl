@@ -6,6 +6,7 @@
         <meta name="twitter:description" content="{$description|escape}"/>
         <meta property="og:description" content="{$description|escape}"/>
     {/if}
+    <meta name="referrer" content="never">
     <link rel="stylesheet" href="/alltube/assets/open-sans/open-sans.css"/>
     <link rel="stylesheet" href="/alltube/css/style.css"/>
     <title>{$config->appName}{if isset($title)} - {$title|escape}{/if}</title>

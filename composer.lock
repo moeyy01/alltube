@@ -3768,10 +3768,10 @@
         },
         {
             "name": "yt-dlp/yt-dlp",
-            "version": "2023.10.13",
+            "version": "2023.11.16",
             "dist": {
                 "type": "tar",
-                "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2023.10.13/yt-dlp.tar.gz"
+                "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2023.11.16/yt-dlp.tar.gz"
             },
             "type": "library"
         },

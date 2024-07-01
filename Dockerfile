@@ -1,4 +1,4 @@
-FROM php:7.4-apache
+FROM registry.ap-southeast-1.aliyuncs.com/moeyy/php:7.4-apache
 RUN apt-get update
 RUN apt-get install -y libicu-dev xz-utils git python3 libgmp-dev unzip ffmpeg
 RUN docker-php-ext-install intl
